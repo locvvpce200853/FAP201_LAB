@@ -1,0 +1,30 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Lab_FAP201\Lab02\src\Lab02.vhd'
+Analyzing entity 'lab02'("D:\Lab_FAP201\Lab02\src\Lab02.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\Lab02\src\Lab02.vhd":12)
+Analyzing VHDL file 'D:\Lab_FAP201\Lab02\src\Lab02tb.vhd'
+Analyzing entity 'lab02tb'("D:\Lab_FAP201\Lab02\src\Lab02tb.vhd":8)
+Analyzing architecture 'behavior'("D:\Lab_FAP201\Lab02\src\Lab02tb.vhd":12)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("D:\Lab_FAP201\Lab02\src\Lab02tb.vhd":56)
+Processing 'Lab02(rtl)'("D:\Lab_FAP201\Lab02\src\Lab02.vhd":4)
+NOTE  (EX0101) : Current top module is "Lab02"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Lab_FAP201\Lab02\impl\gwsynthesis\Lab02.vg" completed
+[100%] Generate report file "D:\Lab_FAP201\Lab02\impl\gwsynthesis\Lab02_syn.rpt.html" completed
+GowinSynthesis finish

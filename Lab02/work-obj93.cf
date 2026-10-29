@@ -1,0 +1,7 @@
+v 4
+file . "src/Lab02tb.vhd" "b6cef5f21b2907ca5b547d1d3123e0b3ea0ad33b" "20261025141858.540":
+  entity lab02tb at 5( 181) + 0 on 21;
+  architecture behavior of lab02tb at 12( 300) + 0 on 22;
+file . "src/Lab02.vhd" "deffef7ae54446d950b5d8ab9c7c5817b0c03ec5" "20261025141858.539":
+  entity lab02 at 1( 0) + 0 on 19;
+  architecture rtl of lab02 at 12( 318) + 0 on 20;

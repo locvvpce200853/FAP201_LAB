@@ -1,0 +1,17 @@
+//========================================================================
+// Physical Constraints File for Lab02
+// Target Device: GW5A-LV25UG324C2/I1
+// Board: Xiaomeige ACG525
+//========================================================================
+
+// Switch 1 -> KEY0
+IO_LOC "i_sw1" B16;
+IO_PORT "i_sw1" PULL_MODE=UP DRIVE=OFF BANK_VCCIO=3.3;
+
+// Switch 2 -> KEY1
+IO_LOC "i_sw2" A15;
+IO_PORT "i_sw2" PULL_MODE=UP DRIVE=OFF BANK_VCCIO=3.3;
+
+// LED Output -> LED0
+IO_LOC "o_led" D14;
+IO_PORT "o_led" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
