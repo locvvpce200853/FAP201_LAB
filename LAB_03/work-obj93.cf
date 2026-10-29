@@ -1,0 +1,7 @@
+v 4
+file . "src/lab_03tb.vhd" "9b10acef7137305bdc4a42539a715c841fa0af2f" "20261025142544.141":
+  entity lab_03_tb at 1( 0) + 0 on 13;
+  architecture sim of lab_03_tb at 7( 86) + 0 on 14;
+file . "src/LAB_03.vhd" "afc74594cb6cb365d05d7c68e4425f3218cd481e" "20261025142544.141":
+  entity lab_03 at 1( 0) + 0 on 11;
+  architecture behavioral of lab_03 at 15( 300) + 0 on 12;

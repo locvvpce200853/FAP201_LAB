@@ -1,0 +1,17 @@
+//=========================================================
+// Physical Constraints File for Lab03 - Blinking an LED
+// Target Device: GW5A-LV25UG324C2/I1
+// Board: Xiaomeige ACG525
+//=========================================================
+
+// Clock 50MHz -> CLK_G, pin T9
+IO_LOC "i_Clk" T9;
+IO_PORT "i_Clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+
+// Switch -> KEY0, pin B16
+IO_LOC "i_Switch_1" B16;
+IO_PORT "i_Switch_1" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// LED -> LED0, pin D14
+IO_LOC "o_LED_1" D14;
+IO_PORT "o_LED_1" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;

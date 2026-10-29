@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Lab_FAP201/LAB_03/src/lab_03tb.vhd",
+  "InstLine" : 4,
+  "InstName" : "LAB_03_tb",
+  "ModuleFile" : "D:/Lab_FAP201/LAB_03/src/lab_03tb.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "LAB_03_tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Lab_FAP201/LAB_03/src/lab_03tb.vhd",
+    "InstLine" : 13,
+    "InstName" : "uut",
+    "ModuleFile" : "D:/Lab_FAP201/LAB_03/src/LAB_03.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "LAB_03"
+   }
+  ]
+ }
+]
