@@ -1,0 +1,68 @@
+$date
+	Sun Oct 25 20:58:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Lab01_tb $end
+$var wire 1 ! o_led3 $end
+$var wire 1 " o_led2 $end
+$var wire 1 # o_led1 $end
+$var reg 1 $ i_sw1 $end
+$var reg 1 % i_sw2 $end
+$var reg 1 & i_sw3 $end
+$scope module uut $end
+$var wire 1 $ i_sw1 $end
+$var wire 1 % i_sw2 $end
+$var wire 1 & i_sw3 $end
+$var wire 1 # o_led1 $end
+$var wire 1 " o_led2 $end
+$var wire 1 ! o_led3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+1&
+#20000
+0!
+0&
+1"
+1%
+#30000
+1!
+1&
+#40000
+0!
+0&
+0"
+0%
+1#
+1$
+#50000
+1!
+1&
+#60000
+0!
+0&
+1"
+1%
+#70000
+1!
+1&
+#80000

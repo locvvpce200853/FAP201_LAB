@@ -1,0 +1,39 @@
+//========================================================================
+// Physical Constraints File for Lab01
+//========================================================================
+// Target Device: GW5A-LV25UG324C2/I1
+// Board: Xiaomeige ACG525
+// Description: Pin assignments for 3 switches and 3 LEDs
+//========================================================================
+
+//========================================================================
+// SWITCH INPUTS (KEY buttons)
+//========================================================================
+
+// Switch 1 -> KEY0
+IO_LOC "i_sw1" B16;
+IO_PORT "i_sw1" PULL_MODE=UP DRIVE=OFF BANK_VCCIO=3.3;
+
+// Switch 2 -> KEY1
+IO_LOC "i_sw2" A15;
+IO_PORT "i_sw2" PULL_MODE=UP DRIVE=OFF BANK_VCCIO=3.3;
+
+// Switch 3 -> KEY2
+IO_LOC "i_sw3" C15;
+IO_PORT "i_sw3" PULL_MODE=UP DRIVE=OFF BANK_VCCIO=3.3;
+
+//========================================================================
+// LED OUTPUTS
+//========================================================================
+
+// LED 1 -> LED0
+IO_LOC "o_led1" D14;
+IO_PORT "o_led1" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// LED 2 -> LED1
+IO_LOC "o_led2" C14;
+IO_PORT "o_led2" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// LED 3 -> LED2
+IO_LOC "o_led3" B9;
+IO_PORT "o_led3" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
