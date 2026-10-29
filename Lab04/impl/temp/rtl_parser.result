@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Lab_FAP201/Lab04/src/lab04_tb.vhd",
+  "InstLine" : 4,
+  "InstName" : "Lab04_tb",
+  "ModuleFile" : "D:/Lab_FAP201/Lab04/src/lab04_tb.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "Lab04_tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Lab_FAP201/Lab04/src/lab04_tb.vhd",
+    "InstLine" : 21,
+    "InstName" : "DUT",
+    "ModuleFile" : "D:/Lab_FAP201/Lab04/src/Lab04.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "lab04"
+   }
+  ]
+ }
+]

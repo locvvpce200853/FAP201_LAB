@@ -1,0 +1,22 @@
+//
+// FAP201 Lab04: Debouncing a Switch
+// Target: GW5A-LV25UG324C2/11
+// Board: Xiaomeige ACG525
+// ================================================================
+//
+IO_LOC "clk" T9;
+IO_LOC "i_sw_raw" B16;
+IO_LOC "i_rst" C15;
+IO_LOC "o_led" D14;
+IO_LOC "o_dbg_stable" C14;
+
+//
+// Electrical IO_PORT properties MUST be enabled only after
+// verification from official board/device electrical documents.
+// Do not copy PULL_MODE / DRIVE / BANK_VCCIO from another board.
+//
+// Example syntax placeholders only:
+// IO_PORT "i_sw_raw" PULL_MODE=<VERIFY> BANK_VCCIO=<VERIFY>;
+// IO_PORT "i_rst" PULL_MODE=<VERIFY> BANK_VCCIO=<VERIFY>;
+// IO_PORT "o_led" DRIVE=<VERIFY> BANK_VCCIO=<VERIFY>;
+// IO_PORT "o_dbg_stable" DRIVE=<VERIFY> BANK_VCCIO=<VERIFY>;
