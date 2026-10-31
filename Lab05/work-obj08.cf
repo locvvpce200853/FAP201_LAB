@@ -1,0 +1,13 @@
+v 4
+file . "sim/lab05_tb.vhd" "0f24fe1d9c7c5f4e65eecb5b3766920e2b73d569" "20261007063951.866":
+  entity lab05_tb at 1( 0) + 0 on 35;
+  architecture sim of lab05_tb at 7( 91) + 0 on 36;
+file . "src/demux_1_to_4.vhd" "d4a4b559febc7cf5593f082bcfe7c8cce2278467" "20261007063951.809":
+  entity demux_1_to_4 at 1( 0) + 0 on 31;
+  architecture rtl of demux_1_to_4 at 16( 356) + 0 on 32;
+file . "src/lfsr_timer.vhd" "4a617daa704056ad0c5f6dd30b32a38e71bc3a37" "20261007063951.787":
+  entity lfsr_timer at 1( 0) + 0 on 29;
+  architecture rtl of lfsr_timer at 16( 350) + 0 on 30;
+file . "src/lab05.vhd" "85137d3a57c3d91e2451490ea0f9ab9778382c98" "20261007063951.839":
+  entity lab05 at 1( 0) + 0 on 33;
+  architecture rtl of lab05 at 20( 462) + 0 on 34;

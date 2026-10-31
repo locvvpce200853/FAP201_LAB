@@ -1,0 +1,10 @@
+IO_LOC "i_Clk" T9;
+
+IO_LOC "i_Switch_1" B16;
+IO_LOC "i_Switch_2" A15;
+IO_LOC "i_Rst" C15;
+
+IO_LOC "o_LED_1" D14;
+IO_LOC "o_LED_2" C14;
+IO_LOC "o_LED_3" B9;
+IO_LOC "o_LED_4" A9;

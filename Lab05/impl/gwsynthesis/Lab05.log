@@ -1,0 +1,43 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Lab_FAP201\Lab05\Lab05\src\lab05.vhd'
+Analyzing entity 'lab05'("D:\Lab_FAP201\Lab05\Lab05\src\lab05.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\Lab05\Lab05\src\lab05.vhd":20)
+Analyzing VHDL file 'D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd'
+Analyzing entity 'lab05_tb'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":4)
+Analyzing architecture 'sim'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":7)
+WARN  (EX4760) : 'env' is not compiled in library 'std'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":91)
+Library 'std' is mapped to 'D:\app1111\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":91)
+Library 'std' is mapped to 'D:\app1111\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":91)
+Library 'std' is mapped to 'D:\app1111\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":91)
+Analyzing VHDL file 'D:\Lab_FAP201\Lab05\Lab05\src\demux_1_to_4.vhd'
+Analyzing entity 'demux_1_to_4'("D:\Lab_FAP201\Lab05\Lab05\src\demux_1_to_4.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\Lab05\Lab05\src\demux_1_to_4.vhd":16)
+Analyzing VHDL file 'D:\Lab_FAP201\Lab05\Lab05\src\lfsr_timer.vhd'
+Analyzing entity 'lfsr_timer'("D:\Lab_FAP201\Lab05\Lab05\src\lfsr_timer.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\Lab05\Lab05\src\lfsr_timer.vhd":16)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("D:\Lab_FAP201\Lab05\Lab05\sim\lab05_tb.vhd":93)
+Processing 'lab05(RTL)'("D:\Lab_FAP201\Lab05\Lab05\src\lab05.vhd":4)
+Processing 'lfsr_timer(RTL)'("D:\Lab_FAP201\Lab05\Lab05\src\lfsr_timer.vhd":4)
+Processing 'demux_1_to_4(RTL)'("D:\Lab_FAP201\Lab05\Lab05\src\demux_1_to_4.vhd":4)
+'others' clause is never selected("D:\Lab_FAP201\Lab05\Lab05\src\demux_1_to_4.vhd":33)
+NOTE  (EX0101) : Current top module is "lab05"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Lab_FAP201\Lab05\Lab05\impl\gwsynthesis\Lab05.vg" completed
+[100%] Generate report file "D:\Lab_FAP201\Lab05\Lab05\impl\gwsynthesis\Lab05_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,29 @@
+Reading netlist file: "D:\Lab_FAP201\Lab05\Lab05\impl\gwsynthesis\Lab05.vg"
+Parsing netlist file "D:\Lab_FAP201\Lab05\Lab05\impl\gwsynthesis\Lab05.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Lab_FAP201\Lab05\Lab05\src\lab05.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Lab_FAP201\Lab05\Lab05\impl\pnr\Lab05.power.html" completed
+Generate file "D:\Lab_FAP201\Lab05\Lab05\impl\pnr\Lab05.pin.html" completed
+Generate file "D:\Lab_FAP201\Lab05\Lab05\impl\pnr\Lab05.rpt.html" completed
+Generate file "D:\Lab_FAP201\Lab05\Lab05\impl\pnr\Lab05.rpt.txt" completed
+Generate file "D:\Lab_FAP201\Lab05\Lab05\impl\pnr\Lab05.tr.html" completed
+Tue Oct 27 14:26:09 2026
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="lab05" Register="1" Lut="2" T_Register="27(1)" T_Lut="15(2)">
+ <SubModule name="LFSR_INST" Register="26" Lut="9" T_Register="26(26)" T_Lut="9(9)"/>
+ <SubModule name="DEMUX_INST" Lut="4" T_Lut="4(4)"/>
+</Module>
