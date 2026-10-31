@@ -1,0 +1,94 @@
+[
+ {
+  "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+  "InstLine" : 4,
+  "InstName" : "lab06_top_74hc595",
+  "ModuleFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "lab06_top_74hc595",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+    "InstLine" : 36,
+    "InstName" : "gen_keys[0].u_key",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+    "InstLine" : 36,
+    "InstName" : "gen_keys[1].u_key",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+    "InstLine" : 36,
+    "InstName" : "gen_keys[2].u_key",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+    "InstLine" : 46,
+    "InstName" : "u_game",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/lab06_game.vhd",
+    "ModuleLine" : 8,
+    "ModuleName" : "lab06_game"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_74hc595.vhd",
+    "InstLine" : 51,
+    "InstName" : "u_display",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/sevenseg_74hc595.vhd",
+    "ModuleLine" : 6,
+    "ModuleName" : "sevenseg_74hc595"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+  "InstLine" : 6,
+  "InstName" : "lab06_top_ledonly",
+  "ModuleFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+  "ModuleLine" : 6,
+  "ModuleName" : "lab06_top_ledonly",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+    "InstLine" : 33,
+    "InstName" : "gen_key[0].u_filter",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+    "InstLine" : 33,
+    "InstName" : "gen_key[1].u_filter",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+    "InstLine" : 33,
+    "InstName" : "gen_key[2].u_filter",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/key_conditioner.vhd",
+    "ModuleLine" : 4,
+    "ModuleName" : "key_conditioner"
+   },
+   {
+    "InstFile" : "D:/Lab_FAP201/lap_06/src/lab06_top_ledonly.vhd",
+    "InstLine" : 46,
+    "InstName" : "u_game",
+    "ModuleFile" : "D:/Lab_FAP201/lap_06/src/lab06_game.vhd",
+    "ModuleLine" : 8,
+    "ModuleName" : "lab06_game"
+   }
+  ]
+ }
+]

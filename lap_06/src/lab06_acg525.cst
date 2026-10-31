@@ -1,0 +1,13 @@
+IO_LOC "clk_50m_i" T9;
+
+IO_LOC "key_raw_i[0]" B16;
+IO_LOC "key_raw_i[1]" A15;
+IO_LOC "key_raw_i[2]" C15;
+
+IO_LOC "led_pin_o[0]" D14;
+IO_LOC "led_pin_o[1]" C14;
+IO_LOC "led_pin_o[2]" B9;
+
+IO_LOC "seg_ds_o" F4;
+IO_LOC "seg_shcp_o" H4;
+IO_LOC "seg_stcp_o" F3;

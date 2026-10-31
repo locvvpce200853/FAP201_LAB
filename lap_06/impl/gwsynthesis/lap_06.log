@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Lab_FAP201\lap_06\src\key_conditioner.vhd'
+Analyzing entity 'key_conditioner'("D:\Lab_FAP201\lap_06\src\key_conditioner.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\lap_06\src\key_conditioner.vhd":10)
+Analyzing VHDL file 'D:\Lab_FAP201\lap_06\src\lab06_game.vhd'
+Analyzing entity 'lab06_game'("D:\Lab_FAP201\lap_06\src\lab06_game.vhd":8)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\lap_06\src\lab06_game.vhd":27)
+Analyzing VHDL file 'D:\Lab_FAP201\lap_06\src\lab06_top_ledonly.vhd'
+Analyzing entity 'lab06_top_ledonly'("D:\Lab_FAP201\lap_06\src\lab06_top_ledonly.vhd":6)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\lap_06\src\lab06_top_ledonly.vhd":20)
+Analyzing VHDL file 'D:\Lab_FAP201\lap_06\src\sevenseg_74hc595.vhd'
+Analyzing entity 'sevenseg_74hc595'("D:\Lab_FAP201\lap_06\src\sevenseg_74hc595.vhd":6)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\lap_06\src\sevenseg_74hc595.vhd":23)
+Analyzing VHDL file 'D:\Lab_FAP201\lap_06\src\lab06_top_74hc595.vhd'
+Analyzing entity 'lab06_top_74hc595'("D:\Lab_FAP201\lap_06\src\lab06_top_74hc595.vhd":4)
+Analyzing architecture 'rtl'("D:\Lab_FAP201\lap_06\src\lab06_top_74hc595.vhd":23)
+Processing 'lab06_top_74hc595(rtl)'("D:\Lab_FAP201\lap_06\src\lab06_top_74hc595.vhd":4)
+Processing 'key_conditioner(rtl)'("D:\Lab_FAP201\lap_06\src\key_conditioner.vhd":4)
+Processing 'lab06_game(rtl)'("D:\Lab_FAP201\lap_06\src\lab06_game.vhd":8)
+Processing 'sevenseg_74hc595(rtl)'("D:\Lab_FAP201\lap_06\src\sevenseg_74hc595.vhd":6)
+NOTE  (EX0101) : Current top module is "lab06_top_74hc595"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Lab_FAP201\lap_06\impl\gwsynthesis\lap_06.vg" completed
+[100%] Generate report file "D:\Lab_FAP201\lap_06\impl\gwsynthesis\lap_06_syn.rpt.html" completed
+GowinSynthesis finish
